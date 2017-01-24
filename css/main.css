@@ -8,8 +8,8 @@
 }
 
 .search-bar {background-color: #121212 !important;}
-.private-channels .search-bar,
-.emoji-picker .search-bar {background-color: #121212 !important; box-shadow: none !important;}
+.private-channels .search-bar {background-color: #121212 !important; box-shadow: none !important;}
+.emoji-picker .search-bar {background-color: #282828 !important; box-shadow: none !important;}
 .search-bar .search-bar-inner {background-color: transparent !important;}
 .search-bar input {
 	background-color: #FFF !important;
@@ -19,7 +19,11 @@
 .search-bar input::-webkit-input-placeholder {
 	color: rgba(0,0,0,.5) !important;
 }
-.search-bar-clear.active {background: #FFF !important;}
+
+.private-channels .search-bar-icon .icon,
+.emoji-picker .search-bar .search-bar-icon .icon {
+	right: -3px !important;
+}
 
 .chat .private-channel-call {background-color: #121212 !important;}
 
@@ -339,7 +343,7 @@
 .form .control-group label a:hover {color: #1ED760 !important;}
 
 .guilds {background-color: #181818 !important;}
-.guilds-wrapper .guilds {padding-bottom: 85px;}
+.guilds-wrapper .guilds {margin-bottom: 71px;}
 
 .guilds-add {border: 1px solid #535559;}
 .guilds-add:hover {border: 1px solid #FFF; color: #535559;}
@@ -358,6 +362,10 @@
 	padding: 0 14px !important;
 }
 .chat form {margin: 0;border-top: 1px solid #121212 !important;}
+
+.chat .user-name:hover {
+	text-decoration: none !important;
+}
 
 .private-channels .scroller, .guild-channels {background-color: #121212 !important;}
 
@@ -567,7 +575,8 @@
 /*---MEMBER LIST---*/
 
 .channel-members-loading {display: none;}
-.channel-members {background-color: #121212 !important;padding-bottom: 85px;}
+.channel-members {background-color: #121212 !important;}
+.channel-members-wrap {margin-bottom: 71px;}
 .channel-members .member:hover {background: #181818 !important;}
 .channel-members .member.popout-open {background: #282828 !important;}
 
@@ -1053,33 +1062,8 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 }
 .tipsy.tipsy-se {opacity: 1 !important;}
 
-/* Zerthox's CSS part */
-
-img:after { 
-    content: attr(alt);
-    position: absolute;
-    top: 0;
-    left: 0;
-	width: 100%;
-    background-color: #222;
-    border: 2px dashed rgba(0, 0, 0, .3);
-	box-sizing: border-box;
-    color: hsla(0, 0%, 100%, .8);
-    font-size: 12px;
-    text-align: left;
-    line-height: 20px;
-    border-radius: 3px;
-    margin-top: -2px;
-    padding-top: 2px;;
-    text-indent: 22px;
-}
-img::before {
-	content: url(https://imgh.us/broken_image.svg);
-	position: absolute;
-    top: -1px;
-    left: 1px;
-    z-index: 1;
-    opacity: .7;
+.invite-button.expired {
+    cursor: not-allowed;
 }
 
 .fav {
@@ -1100,14 +1084,18 @@ img::before {
 .avatar-popout[style*='106915215592923136']::after,
 .avatar-profile[style*='106915215592923136']::after,
 .message-group .avatar-large[style*='106915215592923136'] + .comment .user-name::after {
-    content: "DEV";
+    position: relative;
+	top: -2px;
+	content: "DEV";
     background: #15843c;
     margin-left: 5px;
     font-size: 10px;
     color: #fff;
-    padding: 0px 3px;
+    padding: 1px 3px;
     border-radius: 4px;
+	cursor: default;
 }
+
 .avatar-profile[style*='106915215592923136']::after {
 	background: #15843c;
 	color: #fff!important;
