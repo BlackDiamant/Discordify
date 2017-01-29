@@ -214,7 +214,7 @@
 .channel-notices .channel-notice.invite {background-color: #333333 !important;}
 .channel-notices .channel-notice .message .btn {background-color: #4d4d4d !important;}
 
-.account .btn-group {border: 0px;}
+.account .btn-group {border: 0px;padding-right: 10px;}
 
 #voice-connection .btn-group {border: 0px;}
 
@@ -355,7 +355,7 @@
 .account {
 	background: #282828; 
 	height: 71px; 
-	margin-left: -80px;
+	margin-left: -70px;
 	width: 300px;
 	z-index: 9;
 	border-top: 1px solid #121212 !important;
@@ -483,7 +483,7 @@
 .chat .channel-textarea {background: #282828 !important; margin: 0;opacity: 1;}
 .edit-container-inner .channel-textarea {background: transparent !important;}
 .edit-container-inner .channel-textarea-inner {margin: 0 !important;}
-.chat form {width: calc(100vw - 320px);z-index: 999}
+.chat form {width: calc(100vw - 310px);z-index: 999}
 
 .channel-textarea.channel-textarea-disabled .channel-textarea-inner {opacity: 0.5;}
 
