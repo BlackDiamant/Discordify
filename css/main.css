@@ -483,7 +483,7 @@
 .chat .channel-textarea {background: #282828 !important; margin: 0;opacity: 1;}
 .edit-container-inner .channel-textarea {background: transparent !important;}
 .edit-container-inner .channel-textarea-inner {margin: 0 !important;}
-.chat form {width: calc(100vw - 310px);z-index: 999}
+.content.flex-spacer.flex-horizontal {background-color: #282828;}
 
 .channel-textarea.channel-textarea-disabled .channel-textarea-inner {opacity: 0.5;}
 
