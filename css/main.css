@@ -369,7 +369,7 @@
 	background: #282828; 
 	height: 71px; 
 	margin-left: -70px;
-	width: 300px;
+	width: 292px;
 	z-index: 9;
 	border-top: 1px solid #121212 !important;
 	padding: 0 14px !important;
@@ -429,7 +429,8 @@
 	margin-bottom: 71px !important;
 }
 .search-results-wrap .search-header {background: #202020 !important;}
-.search-results-wrap {background: #111111 !important;}
+.search-results-wrap .scroller {background: #111111 !important;}
+.search-results-wrap {background: #282828 !important;}
 .search-results-wrap .channel-separator .channel-name {
 	background-color: #111111 !important;
 }
