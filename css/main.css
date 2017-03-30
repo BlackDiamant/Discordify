@@ -1061,13 +1061,13 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 
 /*---TOOLTIP---*/
 
-.tooltip:not(.tooltip-error):not(.tooltip-success) {
+.tooltip:not(.tooltip-error):not(.tooltip-success):not(.tooltip-warning) {
 	background:#333333;
 	color:#828282;
 }
-.tooltip.tooltip-right:after {border-right-color:#333333;}
-.tooltip.tooltip-top:after {border-top-color:#333333;}
-.tooltip.tooltip-bottom:after {border-bottom-color:#333333;}
+.tooltip:not(.tooltip-error):not(.tooltip-success):not(.tooltip-warning).tooltip-right:after {border-right-color:#333333;}
+.tooltip:not(.tooltip-error):not(.tooltip-success):not(.tooltip-warning).tooltip-top:after {border-top-color:#333333;}
+.tooltip:not(.tooltip-error):not(.tooltip-success):not(.tooltip-warning).tooltip-bottom:after {border-bottom-color:#333333;}
 
 .tipsy-inner {
 	background-color:#111111;
