@@ -28,14 +28,14 @@
 .chat .private-channel-call {background-color: #121212 !important;}
 
 .account .btn,
-#voice-connection .btn {
+#rtc-connection .btn {
 	border-radius: 30px;
 	border: 1px solid grey;
 	background-color: transparent;
 }
 
 .account .btn:hover,
-#voice-connection .btn:hover {
+#rtc-connection .btn:hover {
 	border-radius: 30px;
 	border: 1px solid #FFF;
 	background-color: transparent;
