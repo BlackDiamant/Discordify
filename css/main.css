@@ -229,7 +229,7 @@
 
 .account .btn-group {border: 0px;padding-right: 10px;}
 
-#voice-connection .btn-group {border: 0px;}
+#rtc-connection .btn-group {border: 0px;}
 
 .account .avatar-small {width: 48px; height: 48px; background-size: cover; border-radius: 0px;}
 
@@ -382,7 +382,7 @@
 
 .private-channels .scroller, .guild-channels {background-color: #121212 !important;}
 
-#voice-connection {
+#rtc-connection {
 	background: #121212;
 	border-top: 1px solid #282828;
 	border-bottom: 0px;
@@ -940,7 +940,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .webhooks .webhooks-header {border-bottom: 1px solid #282828 !important;}
 
 .instant-invite-popout hr,
-#voice-connection-popout hr {border: 1px solid #282828 !important;}
+#rtc-connection-popout hr {border: 1px solid #282828 !important;}
 
 .notification-settings-modal .notification-settings-modal-channel-settings-list {box-shadow: 0 -1px #282828 !important;}
 .guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {color: #2A2A2A !important;}
