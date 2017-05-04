@@ -96,14 +96,6 @@
 
 .modal .download-button {text-align: center;}
 
-.radio-theme.light label {display: none;}
-.radio-theme.dark label {
-    width: 513px;
-    background: url("https://imgh.us/theme_1.png") !important;
-    background-size: cover;
-	border-color: #282828 !important;
-}
-
 .callout-backdrop {background: rgba(0,0,0,0.3) !important;}
 
 .change-log, .markdown-modal-footer {background-color: #1C1C1C !important;}
@@ -679,22 +671,6 @@
 
 .streamer-mode-enabled {background: #181818 !important;}
 
-.settings-connections-wrapper .authed-app, .webhooks .webhook {
-	background: #282828 !important;
-	border: 0px !important;
-}
-
-#webhook-name {height: 42px !important; margin-top: 11px !important;}
-#webhook-name:hover {background-color: #444444 !important;}
-#webhook-name:focus {border-bottom: 0px !important;}
-
-.settings-connections-wrapper .authed-app *, .webhooks .webhook * {
-	color: #D2D2D2 !important;
-}
-
-.guild-settings-modal-emoji .guild-settings-modal-emoji-header p,
-.guild-settings-modal-emoji .no-emoji p {color: #D2D2D2 !important;}
-
 .markdown-modal,
 .region-select-modal,
 .region-select-modal .region-select-modal-header {
@@ -788,8 +764,20 @@
 	background: transparent !important;
 }
 
-.slider-bar-fill {background: #1DB954 !important;}
-.slider-handle {border: 0px;}
+.ui-slider .slider-bar {background: #404040 !important;}
+.ui-slider .slider-bar-fill {background: #1DB954 !important;}
+.ui-slider .slider-grabber {
+	width: 24px;
+	border-radius: 50%;
+	margin-left: -13px !important;
+}
+.ui-slider .slider-grabber .bubble {
+	left: -15px;
+}
+
+.ui-hover-card:before, .round-remove-button {
+	background-color: #282828;
+}
 
 .need-help-modal a,
 .guild-settings-modal-overview a {color: #1ED760 !important;}
@@ -800,7 +788,7 @@
 .user-settings-modal .voice-settings .reset-voice-settings {color: #1ED760 !important;}
 .user-settings-modal .voice-settings .reset-voice-settings:hover {color: #1DB954 !important;}
 
-.settings .settings-inner, .settings-wrapper, .settings-panel, .settings-actions, .user-settings-modal-games {
+.content-region {
 	border: 0px !important;
 	background-color: #181818 !important;
 	color: #FFF;
@@ -820,11 +808,8 @@
 	color: #FFF;
 }
 
-.tab-bar.SIDE {margin-right: -17px;}
-.tab-bar-item.selected:before {border-left: 4px solid #1ED760 !important;}
-.tab-bar-item:hover {background: none;}
-.tab-bar-item:before {border-left: 0px !important;}
-.settings-header {background-color: #282828 !important;}
+.ui-tab-bar-item.selected {background: #1db954 !important;}
+.ui-standard-sidebar-view .sidebar-region {background-color: #282828 !important;}
 
 #settings-roles .roles {border-right-color: #282828;}
 #settings-roles .roles, .selected-role .selected-role-inner {
@@ -891,9 +876,9 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 	height: 44px !important;
 }
 
-.user-settings-modal a {color: #FFF;}
-.user-settings-modal a:hover {color: #FFF;}
-.user-settings-modal button.preview-sound:before {-webkit-filter: hue-rotate(275deg) saturate(400%);}
+.ui-card-primary {
+	background: #282828 !important;
+}
 
 .region-select button, .region-select-inner, .region-select:hover .region-select-inner, .region-select:hover button {
 	border-color: #141414 !important;
@@ -974,6 +959,25 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 
 /*---CHECKBOX---*/
 
+.ui-switch {background: #000 !important;}
+.ui-switch-checkbox:checked + .ui-switch {background: #1db954 !important;}
+
+.ui-switch:before {
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	height: 24px;
+	width: 24px;
+}
+
+.ui-switch-checkbox:disabled + .ui-switch:before {
+	top: 3px;
+	left: 3px;
+	border-radius: 50%;
+	height: 18px;
+	width: 18px;
+}
+
 .checkbox .checkbox-inner span { 
     background: #000;
     transition: .2s linear all !important; 
@@ -982,7 +986,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .checkbox .checkbox-inner.alt input[type=checkbox] + span {background: #000 !important;}
 .checkbox .checkbox-inner.alt input[type=checkbox]:checked + span:after {border-color: #43B581;}
 .checkbox .checkbox-inner + span {color: #fff;}
-.checkbox .checkbox-inner input[type=checkbox]:checked + span {background-color: #1ED760 !important;}
+.checkbox .checkbox-inner input[type=checkbox]:checked + span {background-color: #1db954 !important;}
 .checkbox .checkbox-inner.alt input[type=checkbox]+span {border-color: #404040 !important;}
 
 .checkbox .checkbox-inner input[type=checkbox]:checked + span:after { 
@@ -993,7 +997,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 
 .checkbox .checkbox-inner input[type=checkbox]:checked + span { 
     background: #ADB8E1; 
-    border: 2px solid #1ED760;
+    border: 2px solid #1db954;
     height: 22px; 
     width: 39px; 
     border-radius: 100px;
