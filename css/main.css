@@ -693,6 +693,7 @@
 .hover-roll {color: #cccccc;}
 .games-row {border-top: 0px;}
 
+.radio {color: white !important;}
 .radio .radio-inner span:after {
 	background: #1ED760 !important;
 	border: 0px !important;
@@ -702,7 +703,13 @@
 .now-playing.no-detection {background: #282828 !important;}
 .now-playing:not(.no-detection) {animation: none !important;}
 
-.btn-primary {
+.ui-button.ghost {
+	border-radius: 30px !important;
+	color: white !important;
+	transition: none !important;
+}
+
+.btn-primary, .ui-button:not(.red):not(.grey) {
 	border-radius: 30px !important;
 	background-color: #1db954 !important;
 	color: white !important;
@@ -710,7 +717,8 @@
 	transition: none !important;
 }
 
-.btn.red {
+.btn.red, .ui-button.red {
+	color: white !important;
 	border-radius: 30px !important;
 	background-color: #f04747 !important;
 	border: 0px !important;
@@ -728,11 +736,11 @@
 	max-height: 40px !important;
 }
 
-.btn-primary:not(.red):hover {
+.btn-primary:not(.red):hover, .ui-button:not(.red):not(.grey):hover {
 	background-color: #1bd85e !important;
 	transform: scale(1.05);
 }
-.btn-primary:not(.red):active {
+.btn-primary:not(.red):active, .ui-button:not(.red):not(.grey):active {
 	background-color: #179443 !important;
 	transform: scale(1);
 }
@@ -764,8 +772,10 @@
 	background: transparent !important;
 }
 
+.slider-bar {background: #0e0e0e !important;}
 .ui-slider .slider-bar {background: #404040 !important;}
-.ui-slider .slider-bar-fill {background: #1DB954 !important;}
+.slider-bar-fill {background: #1DB954 !important;}
+.slider-handle {border: 1px solid transparent !important;}
 .ui-slider .slider-grabber {
 	width: 24px;
 	border-radius: 50%;
@@ -776,7 +786,8 @@
 }
 
 .ui-hover-card:before, .round-remove-button {
-	background-color: #282828;
+	background-color: #282828 !important;
+	border-color: #1b1b1b !important;
 }
 
 .need-help-modal a,
@@ -795,32 +806,9 @@
 	border-top: 0px;
 }
 
-.user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .name,
-.user-settings-modal-connections .user-settings-modal-accounts-list .connect-container.disabled .count {color: #FFF !important;}
-
-.user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {background-color: #FFF !important;}
-
-.guild-settings-modal-members,
-.guild-settings-modal-members-header,
-.guild-settings-modal-list,
-.guild-settings-modal-members-footer {
-	background: #181818;
-	color: #FFF;
-}
-
+.ui-tab-bar-item:active {background-color: hsla(216,4%,74%,.1) !important;}
 .ui-tab-bar-item.selected {background: #1db954 !important;}
 .ui-standard-sidebar-view .sidebar-region {background-color: #282828 !important;}
-
-#settings-roles .roles {border-right-color: #282828;}
-#settings-roles .roles, .selected-role .selected-role-inner {
-	background: #181818;
-	color: #FFF;
-}
-
-#settings-roles .roles li.selected {background: none; color: #d2d2d2;}
-#settings-roles .roles li.selected:before {width: 5px; background-color: transparent; color: #FFF;}
-#settings-roles .roles li:before {width: 0px; background-color: transparent; color: #FFF;}
-#settings-roles .roles li:hover {background-color: transparent; cursor: pointer;}
 
 div.control-group .shortcut-recorder input[type=text] {color: #FFF !important;}
 
@@ -904,6 +892,18 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .form .Select-menu-outer {border: 0px !important;}
 .form .Select-option.is-focused {background: #2d2d2d !important;}
 
+.Select-control {background-color: #333333 !important;}
+.Select-value {color: #D2D2D2 !important;}
+
+.Select-option {
+	color: white !important;
+	background: #333333 !important;
+	border-radius: 0px;
+}
+
+.Select-menu-outer {border: 0px !important;}
+.Select-option.is-focused {background: #2d2d2d !important;}
+
 .guild-settings-modal-members .member-buttons .btn,
 .instant-invites .instant-invite-buttons .btn {
 	background: transparent !important;
@@ -927,7 +927,12 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .instant-invite-popout hr,
 #rtc-connection-popout hr {border: 1px solid #282828 !important;}
 
-.notification-settings-modal .notification-settings-modal-channel-settings-list {box-shadow: 0 -1px #282828 !important;}
+.settings-actions, .settings-inner {
+	background-color: #181818 !important;
+	border: none !important;
+}
+.notification-settings-modal .notification-settings-modal-channel-settings-list {box-shadow: 0 -1px #181818 !important;}
+.notification-settings-modal .notification-settings-modal-channel-settings-list .flex-spacer {background-color: #181818 !important;}
 .guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {color: #2A2A2A !important;}
 
 .guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations .integration-logos {
@@ -1133,7 +1138,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .emote-container:hover {background-color: #181818 !important;}
 
 #bd-customcss-attach-controls {
-	background-color: #181818;
+	background-color: #181818 !important;
 	color: #FFF;
 	border: 0px !important;
 }
@@ -1233,7 +1238,7 @@ ul.bda-slist {
 	margin-left: -34px;
 }
 .bda-slist li:nth-child(odd) {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(40,40,40,0.4) !important;
 	border-top: none;
 	border-radius: none;
 }
@@ -1248,7 +1253,7 @@ ul.bda-slist {
 	font-size: 14px;
 }
 .bda-slist li {
-	background: rgba(0, 0, 0, 0.56);
+	background: rgba(40,40,40,0.7) !important;
 	border-bottom: 1px solid #1DB954;
 	border-radius: 0px;
 }
