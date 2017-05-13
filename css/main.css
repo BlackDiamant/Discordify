@@ -807,7 +807,7 @@
 }
 
 .ui-tab-bar-item:active {background-color: hsla(216,4%,74%,.1) !important;}
-.ui-tab-bar-item.selected {background: #1db954 !important;}
+.ui-tab-bar-item.selected:not(.guild-role) {background: #1db954 !important;}
 .ui-standard-sidebar-view .sidebar-region {background-color: #282828 !important;}
 
 div.control-group .shortcut-recorder input[type=text] {color: #FFF !important;}
@@ -864,8 +864,17 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 	height: 44px !important;
 }
 
-.ui-card-primary {
+.ui-card-primary:not(.checked) {
 	background: #282828 !important;
+}
+
+.ui-card-primary.checked {
+	border: 1px solid #333333 !important;
+	background: #168d40 !important;
+}
+
+.ui-checkbox-wrapper .ui-checkbox.checked polyline {
+	stroke: #1db954 !important;
 }
 
 .region-select button, .region-select-inner, .region-select:hover .region-select-inner, .region-select:hover button {
@@ -1232,11 +1241,6 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 
 .bd-minimal .theme-dark .comment {border-left: 0px;}
 
-ul.bda-slist {
-	margin-top: 18px;
-	width: 588px;
-	margin-left: -34px;
-}
 .bda-slist li:nth-child(odd) {
 	background: rgba(40,40,40,0.4) !important;
 	border-top: none;
