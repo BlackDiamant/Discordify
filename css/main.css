@@ -381,7 +381,7 @@
 	text-decoration: none !important;
 }
 
-.private-channels .scroller, .guild-channels, .channels-wrap, .container-RYiLUQ {background-color: #121212 !important;}
+.private-channels, .guild-channels, .channels-wrap, .container-RYiLUQ {background-color: #121212 !important;}
 
 .container-3lnMWU {
 	background: #121212;
