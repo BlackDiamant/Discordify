@@ -55,6 +55,10 @@
 	color: #adadad;
 }
 
+.private-channel-call-participants.flex-horizontal {
+	background-color: transparent !important;
+}
+
 .quickswitcher {
 	background-color: #181818 !important;
 	box-shadow: none !important;
