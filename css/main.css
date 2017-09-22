@@ -364,8 +364,12 @@
 .guilds-add {border: 1px solid #535559;}
 .guilds-add:hover {border: 1px solid #FFF; color: #535559;}
 
-.new-messages-indicator.new-messages-indicator-guild.new-messages-indicator-mention.bottom {
-	bottom: 71px !important;
+.unread-mentions-indicator-bottom {
+	bottom: 77px !important;
+}
+
+.layers, .layer {
+	background: #181818 !important; 
 }
 
 .container-iksrDt {
