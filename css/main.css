@@ -114,6 +114,10 @@
 
 /*--/SVG--*/
 
+.connecting {
+	background: #282828 !important;
+}
+
 .instant-invite-modal {background: transparent !important;}
 
 .modal .modal-image .image {
