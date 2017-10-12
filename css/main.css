@@ -118,6 +118,10 @@
 	background: #282828 !important;
 }
 
+.ui-popout-list {
+	background: #282828 !important;
+}
+
 .instant-invite-modal {background: transparent !important;}
 
 .modal .modal-image .image {
@@ -532,6 +536,11 @@
 }
 
 .autocomplete-1TnWNR .selectorSelected-2M0IGv {background: #4D4D4D !important;}
+
+.content-249Pr9 {color: white !important;}
+.descriptionUsername-1quCGz,
+.description-YnaVYa {color: #eeeeee !important;}
+.descriptionDiscriminator-3KCIMj {color: #e2e2e2 !important;}
 
 .message-group.is-local-bot-message {
 	background: none !important;
