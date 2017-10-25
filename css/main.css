@@ -118,6 +118,10 @@
 	background: #282828 !important;
 }
 
+.ui-popout-list {
+	background: #282828 !important;
+}
+
 .instant-invite-modal {background: transparent !important;}
 
 .modal .modal-image .image {
@@ -331,14 +335,12 @@
 .wrapperSelectedText-31jJa8.wrapper-fDmxzK {
 	border-left: 4px solid #1ED760 !important;
 }
+.wrapperSelectedText-31jJa8.wrapper-fDmxzK .content-2mSKOj {
+	margin-left: 4px;
+}
 
 .channel.selected.private {
 	border-left: 4px solid #1ED760 !important;
-}
-
-.channel:not(.selected).private,
-.wrapper-fDmxzK {
-	border-left: 4px solid transparent !important;
 }
 
 .contentDefaultText-2elG3R, .contentDefaultVoice-311dxZ, .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh, .contentLockedText-1NPV7g, .contentLockedVoice-2lGH0M, .contentMutedText-Lcl-Wj, .contentMutedVoice-1AvYom, .contentSelectedText-3j5CXt, .contentSelectedVoice-gTtYM9, .contentUnreadText-3oxASB, .contentUnreadVoice-1vHNNW,
@@ -351,10 +353,6 @@
 
 .channel.channel-text:before,
 .private-channels .channel:not(.selected):before {border-left: 0px !important;}
-
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-	left: -6px;
-}
 
 .messages-wrapper a,
 .messages-wrapper a:hover,
@@ -532,6 +530,11 @@
 }
 
 .autocomplete-1TnWNR .selectorSelected-2M0IGv {background: #4D4D4D !important;}
+
+.content-249Pr9 {color: white !important;}
+.descriptionUsername-1quCGz,
+.description-YnaVYa {color: #eeeeee !important;}
+.descriptionDiscriminator-3KCIMj {color: #e2e2e2 !important;}
 
 .message-group.is-local-bot-message {
 	background: none !important;
