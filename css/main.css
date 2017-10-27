@@ -2,6 +2,10 @@
 
 .tab-bar.TOP {border-bottom: 0px !important;}
 
+.titleBar-3_fDwJ, .appMount-14L89u {
+	background-color: #121212;
+}
+
 .tab-bar.TOP .tab-bar-item.selected {
 	border-bottom: 2px solid #1ED760 !important;
 	color: #FFFFFF;
@@ -170,12 +174,12 @@
 	background-color: transparent !important;
 }
 
-.title-wrap, #bd-customcss-detach-container {
+.titleWrapper-3Vi_wz .title-qAcLxz, .title-wrap, #bd-customcss-detach-container {
 	border-bottom: 0px !important;
 	background-color: #121212 !important;
 }
 
-.title-wrap .topic a {color: #1DB954 !important;}
+.titleWrapper-3Vi_wz .title-qAcLxz .topic-1KFf6J a, .title-wrap .topic a {color: #1DB954 !important;}
 
 #user-profile-modal .guilds .guild:hover {
 	background: #181818 !important;
@@ -214,7 +218,7 @@
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button,
 #friends .btn,
 #friends .btn:hover,
-#friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary {
 	background: #1DB954 !important;
 	border: 0px !important;
 	color: white !important;
@@ -361,30 +365,32 @@
 .form .control-group label a:hover {color: #1ED760 !important;}
 
 .guilds {background-color: #181818 !important;}
-.guilds-wrapper .guilds {margin-bottom: 71px;}
+.guilds-wrapper {margin-bottom: 71px;}
 
 .guilds-add {border: 1px solid #535559;}
 .guilds-add:hover {border: 1px solid #FFF; color: #535559;}
 
-.unread-mentions-indicator-bottom {
-	bottom: 77px !important;
-}
-
 .layers, .layer {
 	background: #181818 !important; 
 }
-
 .container-iksrDt {
 	background: #282828; 
 	height: 71px; 
 	margin-left: -70px;
 	width: 282px;
-	z-index: 9;
 	border-top: 1px solid #121212 !important;
 	padding: 0 14px !important;
 	margin-bottom: 0px !important;
+	position: fixed;
+	bottom: 0px;
 }
-.chat form {margin: 0;border-top: 1px solid #121212 !important;}
+.chat form {
+	margin: 0;
+	border-top: 1px solid #121212 !important;
+	background: #282828 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
 
 .chat .user-name:hover {
 	text-decoration: none !important;
@@ -396,6 +402,10 @@
 	background: #121212;
 	border-top: 1px solid #282828;
 	border-bottom: 0px;
+	margin-bottom: 71px;
+}
+.channels-wrap {
+	margin-bottom: 71px;
 }
 
 /*---/GUILDS---*/
@@ -504,9 +514,9 @@
 .messages-wrapper, #friends {background-color: #181818 !important;}
 
 .flex-wrapper,
-.channel-text-area-default,
+.channelTextArea-1HTP3C,
 .channel-text-area-upload .inner-3if5cm {background: rgba(40,40,40,0.7) !important; margin: 0;opacity: 1;}
-.edit-container-inner .channel-text-area-default {background: transparent !important;}
+.edit-container-inner .channelTextArea-1HTP3C {background: transparent !important;}
 .edit-container-inner .channel-textarea-inner {margin: 0 !important;}
 .content.flex-spacer.flex-horizontal {background-color: #282828;}
 
@@ -514,7 +524,7 @@
 
 .typing {background: transparent !important;height: 25px;z-index: 1000;bottom: -1px;}
 
-.channel-text-area-default {margin: 4px 20px 23px 20px;}
+.channelTextArea-1HTP3C {margin: 4px 20px 23px 20px;}
 
 .channel-textarea-inner, .quick-message, .note textarea:focus {
 	color: white !important;
@@ -577,7 +587,7 @@
 
 /*---FRIENDS---*/
 
-.friends-header {background: #121212 !important;}
+.friends-header, .headerBar-cxbhPD {background: #121212 !important;}
 
 .friends-table {
 	background: #181818 !important;
@@ -585,6 +595,7 @@
 }
 
 .friends-header,
+.headerBar-cxbhPD,
 .friends-table .friends-table-header {
 	border-bottom: 1px solid hsla(0,0%,100%,.1) !important;
 }
