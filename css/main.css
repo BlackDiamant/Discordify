@@ -381,7 +381,7 @@
 	border-top: 1px solid #121212 !important;
 	padding: 0 14px !important;
 	margin-bottom: 0px !important;
-	position: fixed;
+	position: absolute;
 	bottom: 0px;
 }
 .chat form {
