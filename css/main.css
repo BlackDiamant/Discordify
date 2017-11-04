@@ -440,14 +440,14 @@
 .emoji-item.selected {background-color: #181818 !important;}
 .emoji-picker .categories .item.selected {border-bottom: 4px solid #1ED760;}
 
-.mention {
-	background-color: rgba(27, 193, 86, 0.1) !important;
+.mention, .mention:not([style*='color']):hover {
 	color: #1ED760;
-	border-left: 4px solid transparent;
-	border-right: 4px solid transparent;
-	border-radius: 24px;
+	padding: 0 3px;
+	border-radius: 3px;
+	text-decoration: none !important;
 }
-.mention:hover {color: #1DB954 !important;}
+.message:not(.mentioned) .mention:not([style*='color']) {background-color: rgba(27, 193, 86, 0.1) !important;}
+.message:not(.mentioned) .mention:not([style*='color']):hover {background-color: rgba(27, 193, 86, 0.2) !important;}
 
 .invite-button {background-color: #202020 !important;}
 .messages-popout-wrap {background: #202020 !important;}
