@@ -318,6 +318,12 @@
 .headerBar-cxbhPD {box-shadow: none !important;}
 .newsIconForeground-2HM1xc {color: #b9bbbe !important;}
 
+/* New invites look */
+.wrapper-uAa07y {
+	border: none !important;
+	background: #202020 !important;
+}
+
 /*---/Canary & PTB---*/
 
 .create-guild-container .create-or-join .form-inner {
