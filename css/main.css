@@ -505,7 +505,11 @@
 	background-color: transparent !important;
 }
 
-.bot-tag {background-color: #15843c;}
+.bot-tag, 
+.botTag-1OwMgs {
+	color: white;
+	background-color: #15843c;
+}
 .message-group .avatar-large {left: 10px;}
 
 .chat .has-more button {
