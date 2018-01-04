@@ -478,9 +478,9 @@
 	background: #242424 !important;
 }
 
-.message-group .embed-wrapper .embed-color-pill {background-color: #282828;}
+.message-group .embed-wrapper .embed-color-pill, .embedPill-3sYS1X {background-color: #282828;}
 
-.message-group .embed {
+.message-group .embed, .embedInner-t4ag7g {
 	background-color: rgba(0,0,0,0.1) !important;
 	border-color: rgba(0,0,0,0.3) !important;
 }
@@ -533,7 +533,7 @@
 
 .channel-textarea.channel-textarea-disabled .channel-textarea-inner {opacity: 0.5;}
 
-.typing {background: transparent !important;height: 25px;z-index: 1000;bottom: -1px;}
+.typing, .typing-3eiiL_ {background: transparent !important;height: 25px;z-index: 1000;bottom: -1px;}
 
 .channelTextArea-1HTP3C {margin: 4px 20px 23px 20px;}
 
