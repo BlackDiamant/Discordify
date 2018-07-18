@@ -40,6 +40,16 @@
 	background-color: transparent;
 }
 
+/*Patch for Gear Icon shrinking on latest Discord update*/
+[name='Gear'] {
+    width: 21px;
+    height: 21px;
+}
+
+.buttonInner-LmnaN_ {
+    padding: 6px;   
+}
+
 .container-2Thooq .flex-1xMQg5.flex-1O1GKY.horizontal-2EEEnY.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 div,
 .container-1UB9sr .button-2KyEfG {
 	border-radius: 30px;
