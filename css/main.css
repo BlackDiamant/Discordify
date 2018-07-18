@@ -1,3 +1,5 @@
+//META{"name":"Discordify","description":"A Spotify inspired theme, no need to update this theme, it updates itself when you reload Discord","author":"Nirewen","version":"ersion: [Reload for latest version]"}*//{}
+
 /* Revival Patch by MasicoreLord - July 2018 */
 /* For Discordify by Nirewen */
 
@@ -375,6 +377,8 @@
 .containerUserOver-1U5YnL {margin: 0 0 14px 0;}
 
 .containerDefault-3GGEv_ {margin-bottom: 6px;}
+
+.containerDefault-3GGEv_, .containerDragAfter-3TEhpe, .containerDragBefore-3Dzc5x, .containerUserOver-1Tcb7l {padding-top: 24px;}
 
 .messages-wrapper a,
 .messages-wrapper a:hover,
