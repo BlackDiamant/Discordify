@@ -1,4 +1,4 @@
-/* Revival Patch by MasicoreLord - July 2018 */
+/* Revival Patched by MasicoreLord */
 /* For Discordify by Nirewen */
 
 /*---MAIN---*/
@@ -273,7 +273,7 @@
 .channel-notices .channel-notice.invite {background-color: #333333 !important;}
 .channel-notices .channel-notice .message .btn {background-color: #4d4d4d !important;}
 
-.container-2Thooq .avatar-small {width: 48px; height: 48px; background-size: cover; border-radius: 0px;}
+.container-2Thooq .avatar-small {width: 48px; height: 48px; background-size: cover; border-radius: 0px; margin-left: -1px;}
 
 .guilds-wrapper .guilds .guild .guild-inner:hover {
 	background: rgba(0,0,0,0.3) !important;
