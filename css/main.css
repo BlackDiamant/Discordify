@@ -3,6 +3,10 @@
 
 /*---MAIN---*/
 
+.container-2lgZY8 {
+	background-color: #282828 !important;
+}
+
 .tab-bar.TOP {border-bottom: 0px !important;}
 
 .titleBar-AC4pGV, .appMount-3VJmYg {
@@ -228,6 +232,8 @@
 	background: #1DB954;
 }
 
+#friends {margin-bottom: 71px}
+
 .popout .btn,
 .sub-header .btn,
 .btn.add-friend,
@@ -333,11 +339,13 @@
 .partyBottomBorder-3UKgJE,
 .sectionLine-L34YkN,
 .newsIconCircle-2mzNOD,
-.content-1RjmSK {background-color: #282828 !important;}
+.content-1RjmSK,
+.activityFeed-28jde9 {background-color: #282828 !important;}
 .activity-3tgXuD {
 	border: none !important;
 	border-radius: 0 !important;
 }
+.activityFeed-28jde9 {margin-bottom: 71px !important;}
 .body-2WmNzl {background-color: #121212 !important;}
 .headerBar-UHpsPw {box-shadow: none !important;}
 .newsIconForeground-2HM1xc {color: #b9bbbe !important;}
