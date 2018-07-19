@@ -1,6 +1,6 @@
 # Discordify
 
-`v3.1.0` by Nirewen
+`v3.1` by Nirewen
 
 ### BetterDiscord Installation:
 
