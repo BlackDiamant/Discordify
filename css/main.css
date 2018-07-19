@@ -232,7 +232,7 @@
 	background: #1DB954;
 }
 
-#friends {margin-bottom: 71px}
+#friends {margin-bottom: 71px; border-bottom: 1px solid #121212;}
 
 .popout .btn,
 .sub-header .btn,
@@ -340,7 +340,7 @@
 .sectionLine-L34YkN,
 .newsIconCircle-2mzNOD,
 .content-1RjmSK,
-.activityFeed-28jde9 {background-color: #282828 !important;}
+.activityFeed-28jde9 {background-color: #282828 !important; border-bottom: 1px solid #121212 !important;}
 .activity-3tgXuD {
 	border: none !important;
 	border-radius: 0 !important;
