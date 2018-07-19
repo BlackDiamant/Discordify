@@ -40,14 +40,19 @@
 	background-color: transparent;
 }
 
-/*Patch for Gear Icon shrinking on latest Discord update*/
+/* Patch for Gear Icon shrinking on latest Discord update */
 [name='Gear'] {
     width: 21px;
-    height: 21px;
+	height: 21px;
+	opacity: .6;
 }
 
-.buttonInner-LmnaN_ {
-    padding: 6px;   
+.button-2b6hmh.button-38aScr {
+    opacity: 1;
+}
+
+.container-2Thooq .buttonInner-LmnaN_ {
+	padding: 6px;
 }
 
 .container-2Thooq .flex-1xMQg5.flex-1O1GKY.horizontal-2EEEnY.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 div,
