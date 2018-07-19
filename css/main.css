@@ -1,3 +1,5 @@
+//META{"name":"Discordify","description":"A Spotify inspired theme, no need to update this theme, it updates itself when you reload Discord","author":"Nirewen","version":"ersion: [Reload for latest version]"}*//{}
+
 /* Revival Patch by MasicoreLord - July 2018 */
 /* For Discordify by Nirewen */
 
@@ -72,18 +74,19 @@
 	background-color: transparent !important;
 }
 
-.quickswitcher {
+.quickswitcher-3JagVE {
 	background-color: #181818 !important;
 	box-shadow: none !important;
 	border-radius: 0px;
 }
-.quickswitcher .result.selected:after {
+
+.quickswitcher-3JagVE .resultFocused-3aIoYe:after {
 	background-color: #131313 !important;
     box-shadow: 0 0 10px #131313;
 }
 
-.quickswitcher .big-input {background-color: #3f3f3f !important;}
-.quickswitcher .result.selected {background-color: #131313 !important;}
+.input-2VB9rf {background-color: #3f3f3f !important;}
+.resultFocused-3aIoYe {background-color: #131313 !important;}
 .quickswitcher .ui-scroller-wrap:before {background-image: none !important;}
 
 .modal .modal-inner {box-shadow: 0 1px 70px #000;}
