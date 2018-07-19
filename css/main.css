@@ -239,18 +239,18 @@
 	background: rgba(24,24,24,0.99) !important;
 }
 
-.upload-modal,
-.upload-drop-modal .bgScale {
+.uploadModal-2ifh8j,
+.uploadDropModal-2kTwbc .bgScale-1otPtc {
 	background: #15843c !important;
 }
-.upload-modal .footer, .upload-modal .footer .button, .upload-modal .footer .button span,
+.uploadModal-2ifh8j .footer-3mqk7D, .uploadModal-2ifh8j .footer-3mqk7D .button, .uploadModal-2ifh8j .footer-3mqk7D .button span,
 .channel-textarea-guard button {
 	background-color: #10682f !important;
 	color: white;
 }
 
-.upload-modal .inner .file .icon.image {border: 2px solid #1aa64b;}
-.upload-modal .inner, .upload-drop-modal .inner {border: 2px dashed #8edca9;}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {border: 2px solid #1aa64b;}
+.uploadModal-2ifh8j .inner-3nWsbo, .uploadDropModal-2kTwbc .inner-3nWsbo {border: 2px dashed #8edca9;}
 
 .need-help-modal .header {background-color: #1DB954 !important;}
 
