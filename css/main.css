@@ -40,6 +40,12 @@
 	background-color: transparent;
 }
 
+/* Add spacing to controls */
+.container-2Thooq .flex-1xMQg5 div,
+.container-2Thooq .flex-1xMQg5 .button-38aScr {
+    margin-left: 3px;
+}
+
 /* Patch for Gear Icon shrinking on latest Discord update */
 [name='Gear'] {
     width: 21px;
