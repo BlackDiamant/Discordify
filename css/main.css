@@ -1,3 +1,5 @@
+//META{"name":"Discordify","description":"A Spotify inspired theme, no need to update this theme, it updates itself when you reload Discord","author":"Nirewen","version":"ersion: [Reload for latest version]"}*//{}
+
 /* Revival Patched by MasicoreLord */
 /* For Discordify by Nirewen */
 
@@ -707,7 +709,7 @@
     margin-bottom: -7px;
 }
 
-.members-1998pB .small-5Os1Bb:hover .status-oxiHuE {
+.members-1998pB .small-5Os1Bb:hover .status-oxiHuE:not(:hover) {
 	transform: translate(2px, 1px);
 }
 
