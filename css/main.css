@@ -668,14 +668,14 @@
 .members-1998pB .member-3W1lQa:hover {background: #181818 !important;}
 .members-1998pB .member-3W1lQa.popout-open {background: #282828 !important;}
 
-.members-1998pB .member-3W1lQa .avatar-small {
+.members-1998pB .member-3W1lQa .image-33JSyf {
     width: 40px;
     height: 40px;
     background-size: 40px 40px;
     z-index: 9;
 }
 
-.members-1998pB .member-3W1lQa .avatar-small:before {
+.members-1998pB .member-3W1lQa .image-33JSyf:before {
     z-index: 11;
     content: "";
     width: 38px;
@@ -687,8 +687,8 @@
     border-radius: 50%;
     border: 1px solid transparent;
 }
-/*Got black circle over avatar on hover, disabling this code.*/
-/*.members-1998pB .member-3W1lQa .small-5Os1Bb:after {
+
+.members-1998pB .member-3W1lQa .image-33JSyf:after {
     z-index: 10;
     content: "";
     width: 40px;
@@ -696,17 +696,33 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #000;
+    /*background: #000;*/
     opacity: 0;
 	border-radius: 50%;
-}*/
-.members-1998pB .small-5Os1Bb .status {z-index: 12 !important;}
-.members-1998pB .member-3W1lQa .small-5Os1Bb:hover:after {opacity: .9 !important;}
-.members-1998pB .member-3W1lQa .small-5Os1Bb:hover:before {border-color: white !important;}
-.members-1998pB .member-3W1lQa .small-5Os1Bb:hover {transform: scale(1.08);}
-.members-1998pB .member-3W1lQa .small-5Os1Bb:active {transform: scale(1) !important;}
-.members-1998pB .member-3W1lQa:hover > .small-5Os1Bb:before {border-color: grey;}
-.members-1998pB .member-3W1lQa:hover > .small-5Os1Bb:after {opacity: .9;}
+}
+/*Moved Status Indicator to adjust for the resized avatars.*/
+.members-1998pB .small-5Os1Bb .status-oxiHuE {
+    margin-right: -10px;
+    margin-bottom: -7px;
+}
+
+.members-1998pB .small-5Os1Bb:hover .status-oxiHuE {
+	transform: translate(2px, 1px);
+}
+
+.members-1998pB .small-5Os1Bb .status-oxiHuE {z-index: 12 !important;}
+.members-1998pB .member-3W1lQa .image-33JSyf:hover:after {opacity: .9 !important;}
+.members-1998pB .member-3W1lQa .image-33JSyf:hover:before {border-color: white !important;}
+.members-1998pB .member-3W1lQa .image-33JSyf:hover {transform: scale(1.08);}
+.members-1998pB .member-3W1lQa .image-33JSyf:active {transform: scale(1) !important;}
+.members-1998pB .member-3W1lQa:hover > .image-33JSyf:before {border-color: grey;}
+.members-1998pB .member-3W1lQa:hover > .image-33JSyf:after {opacity: .9;}
+
+.memberInner-2CPc3V {
+	margin-left: 11px;
+	margin-top: 10px;
+	width: 157px;
+}
 
 .userPopout-3XzG_A .headerNormal-T_seeN, .header-QKLPzZ {background: #1C1C1C !important;}
 .modal-1UGdnR .header-QKLPzZ:after {display: none;}
@@ -741,7 +757,7 @@
 	background: #282828;
 }
 
-.member-roles .member-role {
+.rolesList-22qj2L .role-2irmRk {
 	background-color: #181818;
 	color: #FFF;
 	border: 0px;
