@@ -671,7 +671,8 @@
 .members-1998pB .member-3W1lQa .image-33JSyf {
     width: 40px;
     height: 40px;
-    background-size: 40px 40px;
+	background-size: 40px 40px;
+	margin-top: -10px;
     z-index: 9;
 }
 
@@ -720,7 +721,7 @@
 
 .memberInner-2CPc3V {
 	margin-left: 11px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	width: 157px;
 }
 
