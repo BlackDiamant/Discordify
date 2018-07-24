@@ -202,6 +202,56 @@
 
 .titleWrapper-1l0xT9 .title-3qD0b- .topic-2QX7LI a, .title-wrap .topic a {color: #1DB954 !important;}
 
+/* Spotify Inspired Header Bar */
+.title-3qD0b- {
+    height: 116px;
+}
+
+.title-3qD0b- .flex-1xMQg5 {
+    position: fixed;
+    right: 8px;
+    top: 0;
+}
+
+.platform-win .title-3qD0b- .flex-1xMQg5 {
+    top: 22px;
+}
+
+.title-3qD0b- .flex-1xMQg5 .search-l1Wz-Q {
+    position: fixed;
+    left: 310px;
+    top: 0;
+}
+
+.title-3qD0b- .flex-1xMQg5 .search-l1Wz-Q {
+    top: 22px;
+}
+
+.titleText-3X-zRE,
+.channelName-3stJzi {
+    overflow: visible;
+}
+
+.topic-2QX7LI:before {
+    top: -2px;
+}
+
+.topic-2QX7LI {
+    margin-top: 15px;
+}
+
+.titleText-3X-zRE {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500!important
+}
+
+.channelName-3stJzi svg {
+    width: 24px;
+    height: 24px;
+}
+/* /Spotify Inspired Header Bar */
+
 #user-profile-modal .guilds .guild:hover {
 	background: #181818 !important;
 	color: #D2D2D2 !important;
@@ -1278,6 +1328,11 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 /* Full width chat container patch for detached CustomCSS */
 .bd-detached-editor .chat form {
     right: 30%;
+}
+
+/* Title header patch for detached CustomCSS */
+.bd-detached-editor .title-3qD0b- .flex-1xMQg5 {
+    right: calc(30% + 8px);
 }
 
 .bd-pfbtn {background: #1db954; border-radius: 8px;}
