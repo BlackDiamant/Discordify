@@ -3,6 +3,11 @@
 
 /*---MAIN---*/
 
+/* Squared out rounded corners that were beside the guild/server list */
+.base-3dtUhz {
+	border-radius: 0;
+}
+
 .container-2lgZY8 {
 	background-color: #282828 !important;
 }
