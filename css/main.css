@@ -62,6 +62,10 @@
 	opacity: .6;
 }
 
+.buttonInner-LmnaN_:hover [name='Gear'] {
+	opacity: 1;
+}
+
 .button-2b6hmh.button-38aScr {
     opacity: 1;
 }
