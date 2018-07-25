@@ -607,7 +607,7 @@
 	border-color: #3d3d3d !important;
 }
 
-.message-group-blocked .message-group:hover {
+.message-group-blocked .container-1YxwTf:hover {
 	background: #181818 !important;
 }
 
@@ -615,7 +615,7 @@
 	background: #202020 !important;
 }
 
-.chat .welcome-message h1 {color: #1DB954 !important;}
+.welcomeMessage-3_Mcht h1 {color: #1DB954 !important;}
 
 .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
 	box-shadow: none !important;
