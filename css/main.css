@@ -396,13 +396,13 @@
 .message-reactions-modal .message-reactions-reactors .reactor .name,
 .message-reactions-modal .message-reactions-list-inner .reaction .count {color: #d2d2d2;}
 /* Activity Feed & Games Tab */
-.feed-1o0xmF,
 .partyBottomBorder-3UKgJE,
 .sectionLine-L34YkN,
 .newsIconCircle-2mzNOD,
-.content-1RjmSK,
-.activityFeed-28jde9 {background-color: #282828 !important; border-bottom: 1px solid #121212 !important;}
+.content-1RjmSK {background-color: #282828 !important; border-bottom: 1px solid #121212 !important;}
+.activityFeed-28jde9 {background-color: #282828 !important;}
 .feed-1o0xmF {
+	background-color: #282828;
 	border-bottom: 1px solid #121212 !important;
 	margin-bottom: 71px !important;
 }
