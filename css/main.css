@@ -1,3 +1,5 @@
+//META{"name":"DiscordifyLocallyPatched","description":"A Spotify inspired theme, no need to update this theme, it updates itself when you reload Discord","author":"Nirewen","version":"ersion: [Reload for latest version]"}*//{}
+
 /* Revival Patched by MasicoreLord */
 /* For Discordify by Nirewen */
 
@@ -557,14 +559,14 @@
 .emojiPicker-3m1S-j .emojiItem-109bjA.selected-39BZ4S {background-color: #181818 !important;}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-bottom: 4px solid #1ED760;}
 
-.mention.wrapper-3WhCwL {
+.wrapper-3WhCwL, markup-2BOw-j {
 	color: #1ED760!important;
 	padding: 0 3px;
 	border-radius: 3px;
 	text-decoration: none !important;
 }
-.mention.wrapper-3WhCwL {background-color: rgba(27, 193, 86, 0.1) !important;}
-.mention.wrapper-3WhCwL:hover, .mention.popout-open.wrapper-3WhCwL {background-color: rgba(27, 193, 86, 0.2) !important;}
+.wrapper-3WhCwL {background-color: rgba(27, 193, 86, 0.1) !important;}
+.wrapper-3WhCwL:hover, .wrapperHover-1GktnT:hover, .popout-open.wrapper-3WhCwL {background-color: rgba(27, 193, 86, 0.2) !important;}
 
 .invite-button {background-color: #202020 !important;}
 .messages-popout-wrap {background: #202020 !important;}
