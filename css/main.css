@@ -481,10 +481,10 @@
 .guilds {background-color: #181818 !important;}
 .guilds-wrapper {margin-bottom: 71px;}
 
-.guilds-add {border: 1px solid #535559;}
-.guilds-add:hover {border: 1px solid #FFF; color: #535559;}
+.guilds-add {border: 1px solid #535559!important;}
+.guilds-add:hover {border: 1px solid #FFF; color: #535559!important;}
 
-.layers, .layer, .noChannel-Z1DQK7 {
+.layers-3iHuyZ, .layer-3QrUeG, .noChannel-Z1DQK7 {
 	background: #181818 !important; 
 }
 .container-2Thooq {
@@ -595,9 +595,9 @@
 	background: #242424 !important;
 }
 
-.message-group .embed-wrapper .embed-color-pill, .embedPill-1Zntps {background-color: #282828;}
+.embedPill-1Zntps {background-color: #282828;}
 
-.message-group .embed, .embedInner-1-fpTo {
+.embedInner-1-fpTo {
 	background-color: rgba(0,0,0,0.1) !important;
 	border-color: rgba(0,0,0,0.3) !important;
 }
@@ -673,21 +673,21 @@
 .description-11DmNu {color: #eeeeee !important;}
 .descriptionDiscriminator-3vUOCc {color: #e2e2e2 !important;}
 
-.message-group.is-local-bot-message {
+.isLocalBot-38G0P0 {
 	background: none !important;
 	box-shadow: none !important;
 	border-bottom: 1px solid rgba(255,255,255,.04) !important;
 }
 
-.message-group .comment .markup code.inline,
-.message-group .comment .markup pre code {background: #2f2f2f !important;}
-.message-group .comment .markup pre {
+.markup-2BOw-j code.inline,
+.markup-2BOw-j pre code {background: #2f2f2f !important;}
+.markup-2BOw-j pre {
 	border: 0px !important;
 	border-radius: 0px !important;
 }
-.message-group {border-bottom-color: rgba(255,255,255,.04) !important;}
-.message-group:hover {background-color: #282828 !important;}
-.message-group .comment .edited {
+.messages .container-1YxwTf {border-bottom-color: rgba(255,255,255,.04) !important;}
+.messages .container-1YxwTf:hover {background-color: #282828 !important;}
+.edited-DL9ECl {
   font-size: 0;
   width: 13px!important;
   height: 13px!important;
