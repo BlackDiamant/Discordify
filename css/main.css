@@ -645,6 +645,11 @@
 .messages-wrapper .messages .divider.divider-red > div {background: #1DB954 !important;}
 .messages-wrapper, #friends {background-color: #181818 !important;}
 
+/* Workaround for padding being cut off on last message on Cozy (default messages layout) */
+.messages.scroller .containerCozy-jafyvG:last-of-type {
+	padding-bottom: 20px;
+}
+
 .flex-wrapper,
 .channelTextArea-1LDbYG,
 .channelTextArea-1LDbYG .inner-zqa7da {background: rgba(40,40,40,0.7) !important; margin: 0;opacity: 1;}
