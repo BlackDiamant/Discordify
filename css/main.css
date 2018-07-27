@@ -648,6 +648,7 @@
 /* Workaround for padding being cut off on last message on Cozy (default messages layout) */
 .messages.scroller .containerCozy-jafyvG:last-of-type {
 	padding-bottom: 20px;
+	margin-bottom: -20px;
 }
 
 .flex-wrapper,
