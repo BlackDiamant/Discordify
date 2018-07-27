@@ -712,17 +712,21 @@
   line-height: 23px
 }
 
-.confirm-message-modal .form-inner .message-group {
+/* Message Confirmation Modal/Dialog */
+.modal-3HD5ck .inner-3wn6Q5 .container-1YxwTf {
 	background-color: #181818 !important; 
 	border-radius: 3px !important; 
 	padding-bottom: 18px !important;
 }
-.confirm-message-modal .form-inner .message-group .comment .markup,
-.confirm-message-modal .form-inner .message-group h2 strong {color: #D2D2D2 !important}
+.modal-3HD5ck .inner-3wn6Q5 .container-1YxwTf .markup-2BOw-j,
+.modal-3HD5ck .inner-3wn6Q5 .container-1YxwTf h2 strong {color: #D2D2D2 !important}
 
-.message-group .comment .attachment .upload > .progress .progress-bar {background-color: #1DB954 !important;}
-.message-group .comment .attachment .upload > .filename,
-.message-group .comment .attachment a {color: #1DB954 !important;}
+.message-2qRu38 {
+	background-color: transparent!important;
+}
+
+.progressBar-3u8FBM {background-color: #1DB954 !important;}
+.filename-3eBB_v {color: #1DB954 !important;}
 
 /*---/CHAT---*/
 
@@ -751,9 +755,12 @@
 
 .channel-members-loading {display: none;}
 .members-1998pB {background-color: #121212 !important;}
-.membersWrap-2h-GB4 {/*margin-bottom: 71px;*/border-bottom: 1px solid #121212;}
+.membersWrap-2h-GB4 {border-bottom: 1px solid #121212;}
 .members-1998pB .member-3W1lQa {height: 50px !important;}
 .members-1998pB .member-3W1lQa:hover {background: #181818 !important;}
+.members-1998pB .member-3W1lQa:hover .content-OzHfo4,
+.members-1998pB .member-3W1lQa.popout-open .content-OzHfo4,
+.members-1998pB .member-3W1lQa.popout-open:hover .content-OzHfo4 {background: transparent;}
 .members-1998pB .member-3W1lQa.popout-open {background: #282828 !important;}
 
 .members-1998pB .member-3W1lQa .image-33JSyf {
