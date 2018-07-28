@@ -379,13 +379,13 @@
 	box-shadow: 0 0 0;
 }
 
-.menu-Sp6bN1 {background: #282828 !important; border-radius: 0; padding-right: 9px}
-.menu-Sp6bN1::after {content: ''; position: absolute; width: 0; height: 0; top: 0px; right: 15px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #282828;}
-.popout-3sVMXz {border-radius: 0; padding-top: 10px; margin-top: -10px; padding-left: 9px; margin-right: -9px}
+.menu-Sp6bN1 {background: #202020 !important; border-radius: 0}
+.menu-Sp6bN1::after {content: ''; position: absolute; width: 0; height: 0; top: 10px; right: 2px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #202020;}
+.popout-3sVMXz {border-radius: 0; padding-top: 20px; margin-top: -20px; box-shadow: none}
 .popout-3sVMXz .icon-2doZ3q {display: none;}
 .popout-3sVMXz .separator-2zcjq8 {display: none;}
-.item-1GzJrl:hover {color: #fff!important; background: #404040 !important; cursor: default;}
-.item-1GzJrl {color: #A0A0A0!important; padding: 8px 4px 8px 49px; margin-right: -10px}
+.item-1GzJrl:hover {color: #fff!important; background: #404040 !important;}
+.item-1GzJrl {color: #A0A0A0!important; padding: 8px 4px 8px 49px}
 .reaction.reaction-me {background-color: rgba(0,0,0,0.3) !important;}
 .reaction:not(.reaction-me) {background-color: rgba(0,0,0,0.1);}
 .message-reactions-list .scroller-wrap, 
@@ -577,9 +577,13 @@
 .option-96V44q.selected-rZcOL- {
 	background-color: #1C1C1C !important;
 }
+
+.searchPopout-1vUlP3 {background: #202020!important; border-radius: 0; overflow:visible; margin-top: 10px}
+.searchPopout-1vUlP3::after {content: ''; position: absolute; width: 0; height: 0; top: -10px; left: 50%; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #202020;}
+
 .search-results-wrap .search-header {background: #202020 !important;}
 .search-results-wrap .scrollerWrap-2lJEkd .scroller-2FKFPG {background: #111111 !important;}
-.search-results-wrap {background: #282828 !important;}
+.search-results-wrap {background: #202020 !important;}
 .search-results-wrap .channel-separator .channel-name {
 	background-color: #111111 !important;
 }
@@ -645,6 +649,85 @@
 .messages-wrapper .messages .divider.divider-red span {color: #1DB954 !important;}
 .messages-wrapper .messages .divider.divider-red > div {background: #1DB954 !important;}
 .messages-wrapper, #friends {background-color: #181818 !important;}
+
+/* ----NOTIFICATIONS---- */
+
+/* Messages Bar */
+.chat .new-messages-bar {
+	background-color: #4687d6;
+	left: 0;
+	right: 0;
+	border-radius: 0;
+	padding-left: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.chat .new-messages-bar:hover {
+	background-color: #4687d6;
+}
+
+.chat .new-messages-bar button {
+	font-size: 14px!important;
+	font-weight: 400;
+	max-width: 100%;
+	padding-right: 3px;
+	flex: unset!important;
+}
+
+.chat .new-messages-bar button:last-child {
+	color: #fff;
+	padding-left: 0;
+	padding-right: 0;
+	text-decoration: underline;
+}
+
+/* Mentions */
+.mention-1f5kbO {
+	background-color: #4687d6;
+}
+
+.mention-1f5kbO:hover {
+	background-color: #4687d6;
+}
+
+.unread-mentions-indicator-bottom,
+.unread-mentions-indicator-top {
+	padding: 0;
+	padding-bottom: 7px
+}
+
+/* Unread Mentions Bar */
+.bar-30k2ka {
+	border-radius: 0;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	font-size: 14px;
+}
+
+.bar-30k2ka .icon-2aINcz {
+	height: 14px;
+	width: 14px;
+	margin-left: 0;
+}
+
+/* Unread Indicator */
+.iconBadge-2dji3k {
+	background-color: #4687d6;
+}
+
+/* Mentions Badge */
+.badge,
+.wrapper-232cHJ {
+	background-color: #4687d6;
+	font-size: 14px;
+	line-height: 14px;
+	border-radius: 0;
+	padding: 1px 5px;
+	box-shadow: none;
+}
+
+/* ----/NOTIFICATIONS---- */
 
 /* Workaround for padding being cut off on last message on Cozy (default messages layout) */
 .messages.scroller .containerCozy-jafyvG:last-of-type {
@@ -1255,7 +1338,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .contextMenu-HLZMGh .checkbox .checkbox-inner span {transform: translate(-15px) !important;}
 
 .contextMenu-HLZMGh {
-	background: #333333 !important;
+	background: #282828 !important;
 	box-shadow: 0px 0px 7px #000 !important;
 	border-radius: 0px !important;
 }
@@ -1266,7 +1349,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:hover {
-	background: #444444 !important;
+	background: #404040 !important;
 	border-radius: 0px !important;
 }
 
@@ -1286,12 +1369,12 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 }
 
 .tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow) {
-	background:#333333;
+	background:#202020;
 	color:#adadad;
 }
-.tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow).tooltip-right:after {border-right-color:#333333;}
-.tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow).tooltip-top:after {border-top-color:#333333;}
-.tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow).tooltip-bottom:after {border-bottom-color:#333333;}
+.tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow).tooltip-right:after {border-right-color:#202020;}
+.tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow).tooltip-top:after {border-top-color:#202020;}
+.tooltip:not(.tooltip-red):not(.tooltip-green):not(.tooltip-yellow).tooltip-bottom:after {border-bottom-color:#202020;}
 
 .tipsy-inner {
 	background-color:#111111;
