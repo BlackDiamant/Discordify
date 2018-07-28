@@ -379,12 +379,13 @@
 	box-shadow: 0 0 0;
 }
 
-.menu-Sp6bN1 {background: #282828 !important; border-radius: 0}
-.popout-3sVMXz {border-radius: 0;}
-.popout-3sVMXz .icon-2doZ3q {display: none}
-.popout-3sVMXz .separator-2zcjq8 {display: none}
-.item-1GzJrl:hover {color: #fff!important; background: #404040 !important;}
-.item-1GzJrl {color: #A0A0A0!important; padding: 8px 24px 8px 40px;}
+.menu-Sp6bN1 {background: #282828 !important; border-radius: 0; padding-right: 9px}
+.menu-Sp6bN1::after {content: ''; position: absolute; width: 0; height: 0; top: 0px; right: 15px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #282828;}
+.popout-3sVMXz {border-radius: 0; padding-top: 10px; margin-top: -10px; padding-left: 9px; margin-right: -9px}
+.popout-3sVMXz .icon-2doZ3q {display: none;}
+.popout-3sVMXz .separator-2zcjq8 {display: none;}
+.item-1GzJrl:hover {color: #fff!important; background: #404040 !important; cursor: default;}
+.item-1GzJrl {color: #A0A0A0!important; padding: 8px 4px 8px 49px; margin-right: -10px}
 .reaction.reaction-me {background-color: rgba(0,0,0,0.3) !important;}
 .reaction:not(.reaction-me) {background-color: rgba(0,0,0,0.1);}
 .message-reactions-list .scroller-wrap, 
@@ -571,9 +572,9 @@
 .wrapper-3WhCwL:hover, .wrapperHover-1GktnT:hover, .popout-open.wrapper-3WhCwL {background-color: rgba(27, 193, 86, 0.2) !important;}
 
 .invite-button {background-color: #202020 !important;}
-.messages-popout-wrap {background: #202020 !important;}
-.messages-popout-wrap .header, .messages-popout-wrap .footer {background: #1C1C1C !important;}
-.search-filter, .search-answer {
+.messagesPopoutWrap-1MQ1bW {background: #202020 !important;}
+.themedPopout-25DgLi .header-SsaQ8X, .themedPopout-25DgLi .footer-SRC48P {background: #1C1C1C !important;}
+.option-96V44q.selected-rZcOL- {
 	background-color: #1C1C1C !important;
 }
 .search-results-wrap .search-header {background: #202020 !important;}
@@ -590,7 +591,7 @@
 .search-results-wrap .search-result:before {background-image: linear-gradient(0deg,rgba(46,49,54,0) 0,#111111 100%) !important;}
 .search-results-wrap .search-result:after {background-image: linear-gradient(180deg,rgba(46,49,54,0) 0,#111111 100%) !important;}
 
-.messages-popout-wrap .messages-popout .message-group {
+.messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
 	background: #282828 !important;
 	border: 0px !important;
 }
@@ -621,7 +622,7 @@
 
 .welcomeMessage-3_Mcht h1 {color: #1DB954 !important;}
 
-.messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
 	box-shadow: none !important;
 	background-color: transparent !important;
 }
