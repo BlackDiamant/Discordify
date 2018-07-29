@@ -703,6 +703,7 @@
 	padding-top: 4px;
 	padding-bottom: 3px;
 	font-size: 14px;
+	font-weight: 300;
 }
 
 .bar-30k2ka .icon-2aINcz {
@@ -725,6 +726,7 @@
 	border-radius: 0;
 	padding: 1px 5px;
 	box-shadow: none;
+	font-weight: 300;
 }
 
 /* ----/NOTIFICATIONS---- */
