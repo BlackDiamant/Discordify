@@ -657,7 +657,7 @@
 .chat .jump-to-present-bar {
 	background-color: #4687d6 !important;
 	left: 0;
-	right: 0;
+	right: 16px;
 	border-radius: 0;
 	padding-left: 11px;
 	padding-top: 5px;
