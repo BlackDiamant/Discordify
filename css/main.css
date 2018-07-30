@@ -1405,7 +1405,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 /*---/TOOLTIP---*/
 
 /*---DEV---*/
-/* Not sure if this can be brought back in current Discord, as they changed the markup slightly, and now can't seem to be something after the name based on the avatar url. */
+/*
 .avatar-small[style*='106915215592923136'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='106915215592923136'] + .member-inner .member-username::after,
 .avatar-popout[style*='106915215592923136']::after,
@@ -1428,6 +1428,112 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 	color: #fff!important;
 	margin-left: 12px!important;
 	content: "THEME DEV";
+}
+*/
+
+/* Removed mask off avatars so the tooltip tag shows through */
+.avatarWrapper-3B0ndJ .mask-3OgeRz {
+    -webkit-mask: unset;
+    mask: unset;
+}
+
+/* Replaced real opacity w/ faked opacity so the tooltips can be opaque, and the avatars are still dim on hover. */
+.avatar-17mtNa:hover {
+    opacity: 1;
+}
+
+.image-33JSyf.large-3ChYtB:hover {
+    /* Use same background color as the thing the avatar is infront of while on hover, w/ this opacity for best results. */
+    background-color: rgba(40,40,40,0.25);
+    background-blend-mode: multiply;
+}
+
+/* Tooltip Tags Styling */
+.image-33JSyf.large-3ChYtB:hover::before,
+.image-33JSyf.small-5Os1Bb:hover::before {
+   position: absolute !important;
+   display: block;
+   left: 48px;
+   top: 7px;
+   background: #202020;
+   color: #adadad;
+   font-size: 14px;
+   white-space: nowrap;
+   padding: 7px 8px;
+   box-shadow: 0px 0px 7px rgba(0,0,0,0.8);
+}
+
+.image-33JSyf.large-3ChYtB:hover::after,
+.image-33JSyf.small-5Os1Bb:hover::after {
+    border: 5px solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    margin-top: -5px;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    border-right-color: #202020;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.8);
+}
+
+.image-33JSyf.small-5Os1Bb:hover::before {
+    top: 5px;
+}
+
+
+.image-33JSyf.large-3ChYtB:hover::after {
+    left: 39px;
+}
+
+.image-33JSyf.profile-ZOdGIb:hover::after {
+    position: absolute !important;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+    white-space: nowrap;
+}
+
+.image-33JSyf.profile-ZOdGIb {
+    color: transparent;
+}
+
+/* Nirewen */
+.image-33JSyf.profile-ZOdGIb[style*="avatars/106915215592923136"]:hover {
+    background-color: #000;
+    background-blend-mode: multiply;
+    transition: background-color 0.2s ease;
+}
+
+.image-33JSyf.profile-ZOdGIb[style*="avatars/106915215592923136"] {
+    background-color: transparent;
+}
+
+.image-33JSyf.profile-ZOdGIb[style*="avatars/106915215592923136"]::after,
+.image-33JSyf.large-3ChYtB[style*="avatars/106915215592923136"]:hover::before,
+.image-33JSyf.small-5Os1Bb[style*="avatars/106915215592923136"]:hover::before {
+    content: 'Theme Dev' !important;
+}
+
+/* MasicoreLord */
+.image-33JSyf.profile-ZOdGIb[style*="avatars/197435711476072449"]:hover {
+    background-color: #000;
+    background-blend-mode: multiply;
+    transition: background-color 0.2s ease;
+}
+
+.image-33JSyf.profile-ZOdGIb[style*="avatars/197435711476072449"] {
+    background-color: transparent;
+}
+
+.image-33JSyf.profile-ZOdGIb[style*="avatars/197435711476072449"]::after,
+.image-33JSyf.large-3ChYtB[style*="avatars/197435711476072449"]:hover::before,
+.image-33JSyf.small-5Os1Bb[style*="avatars/197435711476072449"]:hover::before {
+    content: 'Contributor' !important;
 }
 
 /*---/DEV---*/
