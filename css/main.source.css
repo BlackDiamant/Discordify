@@ -1772,6 +1772,10 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 	right: 149px;
 }
 
+.bd-minimal .bd-detached-editor .chat form {
+	right: calc(30% + 149px)
+}
+
 /* Menu Speech Bubble fix for bd-minimal */
 .bd-minimal .menu-Sp6bN1::after {
 	right: 42px;
