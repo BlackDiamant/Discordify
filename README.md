@@ -2,6 +2,8 @@
 
 `v3.1` by Nirewen
 
+## Discordify is back from the theme graveyard!
+
 ### BetterDiscord Installation:
 
 1. Go to [BetterDiscord's Website](http://betterdiscord.net);
@@ -21,11 +23,10 @@
 Note: The theme updates itself, so you only have to reload Discord at every update ;)
 
 #### **Previews:**
-![Preview-1](http://nirewen.s-ul.eu/gX0Z18Q2.png)
+![Preview-1](https://i.imgur.com/HyTNaoV.png)
 
-![Preview-2](http://nirewen.s-ul.eu/Iev6Ieax.png)
+![Preview-2](https://i.imgur.com/6ZAF6Kd.png)
 
-![Preview-3](http://nirewen.s-ul.eu/37zYRkYx.png)
+![Preview-3](https://i.imgur.com/ewQOoOl.png)
 
-![Preview-4](http://nirewen.s-ul.eu/cl07P761.png)
-([Stylish version](https://userstyles.org/styles/126680/discordify) only)
+![Preview-4](https://i.imgur.com/uHZgypt.png)
