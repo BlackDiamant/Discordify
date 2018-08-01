@@ -1731,7 +1731,17 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 }
 
 .bd-minimal .guild-1EfMGQ .guildInner-3DSoA4, 
-.bd-minimal .selected-ML3OIq .guild-1EfMGQ .guildInner-3DSoA4 {width: 20px !important;}
+.bd-minimal .selected-ML3OIq .guild-1EfMGQ .guildInner-3DSoA4,
+.bd-minimal .iconSizeLarge-161qtT {width: 20px !important;}
+
+.bd-minimal .iconSizeLarge-161qtT,
+.bd-minimal .guild-1EfMGQ.selected-ML3OIq:before {height: 20px !important;}
+
+.bd-minimal .guild-1EfMGQ .guildIcon-CT-ZDq {border-radius: 50%}
+
+.bd-minimal .guild-1EfMGQ.selected-ML3OIq:before {margin-top: -25px !important;}
+
+.bd-minimal .guild-1EfMGQ.unread-qLkInr:before {margin-top: -20px}
 
 .bd-minimal .theme-dark .content-3dzVd8 {border-left: 0px;}
 
@@ -1744,6 +1754,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .bd-minimal .homeIcon-1FoKUJ {
 	width: 20px;
 	height: 20px;
+	margin-left: -29px;
 }
 
 /* Unreads fix for bd-minimal */
@@ -1828,6 +1839,37 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 
 .bd-minimal .container-2Thooq .accountDetails-3k9g4n {
 	margin-left: -8px
+}
+
+.bd-minimal #bd-pub-button {
+	margin-left: -19px
+}
+
+.bd-minimal .friendsOnline-_wi_fM {
+	transform: scale(0.8);
+	margin-left: -15px;
+}
+
+.bd-minimal .guildSeparator-1X4GQ1:after {
+	left: -4px;
+	right: 24px
+}
+
+.bd-minimal .guildsWrapper-5TJh6A {
+	width: 45px;
+}
+
+.bd-minimal .guild-1EfMGQ+.guild-1EfMGQ {
+    margin-top: -21px;
+}
+
+.bd-minimal .guild-1EfMGQ .noIcon-1a_FrS {
+	margin-top: -15px;
+}
+
+.bd-minimal .guild-1EfMGQ .badge-1GsMF2 {
+	right: 25px;
+	z-index: 2
 }
 
 .bda-slist li:nth-child(odd) {
