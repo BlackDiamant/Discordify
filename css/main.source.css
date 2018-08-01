@@ -515,6 +515,12 @@
 	position: absolute;
 	bottom: 0px;
 }
+
+/* Overflow Chat Patch */
+.markup-2BOw-j {
+    overflow: hidden;
+}
+
 .chat form {
 	margin: 0;
 	border-top: 1px solid #121212 !important;
@@ -1681,12 +1687,12 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 	width: 4px;
 	left: -2px;
 }
-
+/*
 .bd-minimal .friends-online {
 	transform: scale(0.8);
 	position: relative;
 }
-
+*/
 .bd-minimal .members-1998pB {width: 185px !important;}
 
 .bd-minimal .members-1998pB .member-3W1lQa.image-33JSyf {
@@ -1729,7 +1735,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .bd-minimal .memberInner-2CPc3V {
 	margin-left: 0px;
 }
-
+/*
 .bd-minimal .guild-1EfMGQ .guildInner-3DSoA4, 
 .bd-minimal .selected-ML3OIq .guild-1EfMGQ .guildInner-3DSoA4,
 .bd-minimal .iconSizeLarge-161qtT {width: 20px !important;}
@@ -1742,7 +1748,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .bd-minimal .guild-1EfMGQ.selected-ML3OIq:before {margin-top: -25px !important;}
 
 .bd-minimal .guild-1EfMGQ.unread-qLkInr:before {margin-top: -20px}
-
+*/
 .bd-minimal .theme-dark .content-3dzVd8 {border-left: 0px;}
 
 /* HeaderBar Fix for bd-minimal */
@@ -1751,18 +1757,26 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 }
 
 /* Home Button fix for bd-minimal */
+/*
 .bd-minimal .homeIcon-1FoKUJ {
 	width: 20px;
 	height: 20px;
 	margin-left: -29px;
 }
+*/
+
+.bd-minimal .container-2Thooq {
+	margin-left: -66px!important;
+}
 
 /* Unreads fix for bd-minimal */
+/*
 .bd-minimal .bar-30k2ka {
 	padding: 0;
 	padding-left: 3px;
 	bottom: -7px;
 }
+*/
 
 .bd-minimal .unreadBottom-1px0d1 .bar-30k2ka {
 	bottom: -8px;
@@ -1840,7 +1854,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 .bd-minimal .container-2Thooq .accountDetails-3k9g4n {
 	margin-left: -8px
 }
-
+/*
 .bd-minimal #bd-pub-button {
 	margin-left: -19px
 }
@@ -1871,6 +1885,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 	right: 25px;
 	z-index: 2
 }
+*/
 
 .bda-slist li:nth-child(odd) {
 	background: rgba(40,40,40,0.4) !important;
