@@ -516,11 +516,6 @@
 	bottom: 0px;
 }
 
-/* Overflow Chat Patch */
-.markup-2BOw-j {
-    overflow: hidden;
-}
-
 .chat form {
 	margin: 0;
 	border-top: 1px solid #121212 !important;
@@ -581,6 +576,14 @@
 }
 .emojiPicker-3m1S-j .emojiItem-109bjA.selected-39BZ4S {background-color: #181818 !important;}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-bottom: 4px solid #1ED760;}
+
+.emojiPicker-3m1S-j .searchBarInner-1_Tg2R {
+	background-color: transparent !important;
+}
+
+.emojiPicker-3m1S-j .searchBarIcon-1J6sKG {
+	right: 18px;
+}
 
 .wrapper-3WhCwL, markup-2BOw-j {
 	color: #1ED760!important;
