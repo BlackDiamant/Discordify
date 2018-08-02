@@ -1086,7 +1086,10 @@
 	transition: none !important;
 }
 
-.colorGreen-29iAKY, .lookFilled-1Gx00P.colorBrand-3pXr91 {
+.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.headerButtonColor-G7_f-V,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
 	border-radius: 30px !important;
 	background-color: #1db954 !important;
 	color: white !important;
@@ -1121,11 +1124,17 @@
 	max-height: 40px !important;
 }
 
-.colorGreen-29iAKY:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:not(:disabled):hover {
+.colorGreen-29iAKY:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91:not(:disabled):hover,
+.headerButtonColor-G7_f-V:not(:disabled):hover,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:not(:disabled):hover {
 	background-color: #1bd85e !important;
 	transform: scale(1.05);
 }
-.colorGreen-29iAKY:active, .lookFilled-1Gx00P.colorBrand-3pXr91:not(:disabled):active {
+.colorGreen-29iAKY:active,
+.lookFilled-1Gx00P.colorBrand-3pXr91:not(:disabled):active,
+.headerButtonColor-G7_f-V:not(:disabled):hover:active,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:not(:disabled):hover:active {
 	background-color: #179443 !important;
 	transform: scale(1);
 }
