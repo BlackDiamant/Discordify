@@ -710,11 +710,11 @@
 	color: white;
 }
 
-.chat-3bRxxu>.content .messages-3amgkR .divider-3gKybi span {background: #181818; border-radius: 8px;}
-.messagesWrapper-3lZDfY .messages-3amgkR-3amgkR .divider-3gKybi:before {background-color: transparent !important;}
-.messagesWrapper-3lZDfY .messages-3amgkR-3amgkR .divider-3gKybi.dividerRed-MKoLlr + .divider-3gKybi {margin-top: 20px !important;}
-.messagesWrapper-3lZDfY .messages-3amgkR-3amgkR .divider-3gKybi.dividerRed-MKoLlr span {color: #1DB954 !important;}
-.messagesWrapper-3lZDfY .messages-3amgkR-3amgkR .divider-3gKybi.dividerRed-MKoLlr > div {background: #1DB954 !important;}
+.divider-3gKybi:not(.red-1YQ4s7) span {background: #181818; border-radius: 8px;}
+.divider-3gKybi:before {background-color: transparent !important;}
+.divider-3gKybi.dividerRed-MKoLlr + .divider-3gKybi {margin-top: 20px !important;}
+.divider-3gKybi.dividerRed-MKoLlr span {color: #1DB954 !important;}
+.divider-3gKybi.dividerRed-MKoLlr > div {background: #1DB954 !important;}
 .messagesWrapper-3lZDfY, #friends {background-color: #181818 !important;}
 
 /* ----NOTIFICATIONS---- */
