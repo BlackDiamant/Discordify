@@ -400,14 +400,13 @@
 .item-1GzJrl {color: #A0A0A0!important; padding: 8px 4px 8px 49px}
 .reaction.reaction-me {background-color: rgba(0,0,0,0.3) !important;}
 .reaction:not(.reaction-me) {background-color: rgba(0,0,0,0.1);}
-.message-reactions-list .scroller-wrap, 
-.message-reactions-modal .message-reactions-list-inner {background: #1C1C1C !important;}
-.message-reactions-reactors,
-.message-reactions-modal .message-reactions-list-inner .reaction.selected {background: #242424;}
-.message-reactions-modal .message-reactions-list-inner .reaction:not(.selected) {background: #1f1f1f;}
-.message-reactions-modal .message-reactions-reactors .reactor {box-shadow: inset 0 -1px 0 #282828 !important;}
-.message-reactions-modal .message-reactions-reactors .reactor .name,
-.message-reactions-modal .message-reactions-list-inner .reaction .count {color: #d2d2d2;}
+.modal-3HD5ck .scrollerWrap-2lJEkd {background: #1C1C1C !important;}
+.reactors-Blmlhw,
+.reactionSelected-1pqISm {background-color: #242424 !important;}
+.reactionDefault-GBA58K {background: #1f1f1f !important;}
+.reactor-3UBcOI {box-shadow: inset 0 -1px 0 #282828 !important;}
+.name-1ug6d4,
+.count-1vzEyg {color: #d2d2d2 !important;}
 /* Activity Feed & Games Tab */
 .partyBottomBorder-3UKgJE,
 .sectionLine-L34YkN,
