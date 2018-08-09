@@ -342,7 +342,7 @@
 
 .need-help-modal.deprecated .header input[type=text] {box-shadow: 0 0 0;}
 
-.need-help-modal.deprecated .form-inner .failed, .need-help-modal.deprecated .form-inner.loading, .need-help-modal.deprecated .footer {
+.need-help-modal.deprecated .form-inner .failed, .need-help-modal.deprecated .form-inner.loading, .need-help-modal.form.deprecated .footer {
 	border-top: 1px solid #181818;
 	background-color: #282828;
 }
