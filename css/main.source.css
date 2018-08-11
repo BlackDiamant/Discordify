@@ -1072,6 +1072,40 @@
 .user-settings-modal .voice-settings .reset-voice-settings {color: #1ED760 !important;}
 .user-settings-modal .voice-settings .reset-voice-settings:hover {color: #1DB954 !important;}
 
+/* Discord Transaction History */
+.paymentRow-2e7VM6 {
+   border-color: transparent !important;
+}
+
+.paymentPane-3bwJ6A,
+.paginator-166-09 {
+	background-color: transparent !important;
+}
+
+.payment-xT17Mq {
+	background-color: #242424 !important;
+	border-color: transparent !important;
+}
+
+.hoverablePayment-Yc6mK7:hover {
+	background-color: #404040 !important;
+}
+
+.expandedInfo-3kfShd {
+	background-color: #404040 !important;
+	border-radius: 0;
+}
+
+.pageButtonNext-V2kUq0:hover {
+	background-color: #141414 !important;
+}
+
+.top-28JiJ- .itemSelected-1qLhcL {
+	background: transparent!important;
+	border-bottom-color: #1ED760 !important;
+}
+/* /Discord Transaction History */
+
 .game-input {color: #FFF;}
 .hover-roll {color: #cccccc;}
 .games-row {border-top: 0px;}
