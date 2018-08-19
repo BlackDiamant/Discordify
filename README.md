@@ -2,8 +2,7 @@
 
 `v3.1` by Nirewen
 
-## ~~Discordify is back from the theme graveyard!~~
-## Patched Theme Project Canceled
+## Discordify is back from the theme graveyard!
 
 ### BetterDiscord Installation:
 
