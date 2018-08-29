@@ -392,6 +392,7 @@
 	box-shadow: 0 0 0;
 }
 
+.attachPopout-1n-ZKM,
 .menu-Sp6bN1 {background: #202020 !important; border-radius: 0}
 .menu-Sp6bN1.alt-3btY0e {margin-bottom: -10px}
 .menu-Sp6bN1:not(.alt-3btY0e)::after {content: ''; position: absolute; width: 0; height: 0; top: 10px; right: 2px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #202020;}
@@ -399,10 +400,11 @@
 .popout-3sVMXz {border-radius: 0; padding-top: 20px; margin-top: -20px; box-shadow: none}
 .popout-3sVMXz .icon-2doZ3q {display: none;}
 .popout-3sVMXz .separator-2zcjq8 {display: none;}
-.item-1GzJrl:hover {color: #fff!important; background: #404040 !important;}
+.item-1GzJrl:hover,
+.attachPopoutRow-KrE-f6:hover {color: #fff!important; background: #404040 !important;}
 .item-1GzJrl {color: #A0A0A0!important; padding: 8px 4px 8px 49px}
-.reaction.reaction-me {background-color: rgba(0,0,0,0.3) !important;}
-.reaction:not(.reaction-me) {background-color: rgba(0,0,0,0.1);}
+.reactionMe-23mbRf {background-color: rgba(0,0,0,0.3) !important;}
+.reaction-1ELvT8:not(.reactionMe-23mbRf) {background-color: rgba(0,0,0,0.1);}
 .modal-3HD5ck .scrollerWrap-2lJEkd {background: #1C1C1C !important;}
 .reactors-Blmlhw,
 .reactionSelected-1pqISm {background-color: #242424 !important;}
@@ -410,6 +412,7 @@
 .reactor-3UBcOI {box-shadow: inset 0 -1px 0 #282828 !important;}
 .name-1ug6d4,
 .count-1vzEyg {color: #d2d2d2 !important;}
+.attachPopoutRow-KrE-f6:hover {border-radius: 0 !important;}
 /* Activity Feed & Games Tab */
 .partyBottomBorder-3UKgJE,
 .sectionLine-L34YkN,
@@ -498,7 +501,7 @@
 .form .control-group label a:hover {color: #1ED760 !important;}
 
 .guilds-1q_RqH {background-color: #181818 !important;}
-.guildsWrapper-5TJh6A {margin-bottom: 71px;}
+.guildsWrapper-5TJh6A {margin-bottom: 71px; border-radius: 0}
 
 .guildsAdd-21_IdK {border: 1px solid #535559!important;}
 .guildsAdd-21_IdK:hover {border: 1px solid #FFF; color: #535559!important;}
@@ -612,7 +615,10 @@
 .messagesPopoutWrap-1MQ1bW {background: #202020 !important;}
 .themedPopout-25DgLi .header-SsaQ8X, .themedPopout-25DgLi .footer-SRC48P {background: #1C1C1C !important;}
 .option-96V44q.selected-rZcOL- {
-	background-color: #1C1C1C !important;
+	background-color: #404040 !important;
+	border-radius: 0;
+	margin: 0;
+	padding: 0 20px;
 }
 
 .searchPopout-1vUlP3 {background: #202020!important; border-radius: 0; overflow:visible; margin-top: 10px}
@@ -1504,32 +1510,36 @@ div.control-group .shortcut-recorder input[type=text]:focus {border-radius: 0px 
 
 /*---/CHECKBOX---*/
 
-/*---CONTEXT MENU---*/
+/*---CONTEXT & MESSAGE OPTIONS MENU---*/
 
 .contextMenu-HLZMGh .checkbox .checkbox-inner span {transform: translate(-15px) !important;}
 
-.contextMenu-HLZMGh {
+.contextMenu-HLZMGh,
+.container-3cGP6G {
 	background: #282828 !important;
 	box-shadow: 0px 0px 7px #000 !important;
 	border-radius: 0px !important;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc {
+.contextMenu-HLZMGh .item-1Yvehc,
+.item-2J1YMK {
 	background: transparent !important;
 	border-radius: 0px !important;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc:hover {
+.contextMenu-HLZMGh .item-1Yvehc:hover,
+.item-2J1YMK:hover {
 	background: #404040 !important;
 	border-radius: 0px !important;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc:active {
+.contextMenu-HLZMGh .item-1Yvehc:active,
+.item-2J1YMK:active {
 	background: #777777 !important;
 	border-radius: 0px !important;
 }
 
-/*---/CONTEXT MENU---*/
+/*---/CONTEXT & MESSAGE OPTIONS MENU---*/
 
 /*---TOOLTIP---*/
 
