@@ -440,6 +440,74 @@
 .headerBar-UHpsPw {box-shadow: none !important;}
 .newsIconForeground-2HM1xc {color: #b9bbbe !important;}
 
+/* Library Tab */
+.libraryFilterInput-3JzqZD {
+	background-color: transparent!important;
+}
+.gameUpdates-2GPqBU {
+	background-color: #121212!important;
+}
+.gameLibrary-TTDw4Y,
+.header-39GIC8 {
+	background-color: #282828!important;
+}
+.gameLibrary-TTDw4Y {
+	margin-bottom: 71px;
+	border-bottom: 1px solid #121212 !important;
+}
+
+/* Store Tab */
+.applicationStore-1pNvnv {
+	background-color: #282828!important;
+	margin-bottom: 71px;
+	border-bottom: 1px solid #121212 !important;
+}
+
+.lookOutlined-3sRXeN {
+	border-radius: 30px;
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	border-color: #fff!important;
+}
+
+.lookOutlined-3sRXeN:hover {
+	transform: scale(1.05)
+}
+
+.overlappingBorder-1ysb12,
+.overlappingBorder-1-XPGl {
+	border-color: #1DB954!important;
+}
+
+.announcingNitro-3Ptg6m {
+	color: #1DB954!important;
+}
+
+.blog-2nw4E8 {
+	background: #1DB954!important;
+}
+
+.premium-39U29H {
+	background: #1DB954!important;
+}
+
+.premium-39U29H:before {
+	display : none;
+}
+@media (min-width: 849px) {
+    .itemBackground-1jfD8p:before {
+    	background: radial-gradient(ellipse at top,transparent,#282828),linear-gradient(90deg,#282828 0,transparent 40%,transparent 60%,#282828),linear-gradient(0deg,#282828 0,transparent 25%)!important;
+    }
+}
+.itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,transparent,#282828),linear-gradient(90deg,#282828 0,transparent 40%,transparent 60%,#282828),linear-gradient(0deg,#282828 10%,transparent 70%)!important;
+}
+
+.browseSearchInput-Jt8kg0 {
+	background-color: transparent !important;
+}
+
 /* New invites look */
 .wrapper-35wsBm {
 	border: none !important;
