@@ -704,6 +704,10 @@
 .container-3ayLPN {background: #202020!important; border-radius: 0; overflow:visible; margin-top: 10px}
 .container-3ayLPN::after {content: ''; position: absolute; width: 0; height: 0; top: 19px; left: 50%; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #202020;}
 
+.option-96V44q:after {
+    background: transparent!important;
+}
+
 .search-results-wrap .search-header {background: #202020 !important;}
 .search-results-wrap .scrollerWrap-2lJEkd .scroller-2FKFPG {background: #111111 !important;}
 .search-results-wrap {background: #202020 !important;}
