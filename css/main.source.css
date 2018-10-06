@@ -52,6 +52,12 @@
 .wrapper-29NfPK,
 .video-1FfuMD {background-color: #121212 !important;}
 
+/* Bug Fix for avatar being cut off if store/library was visited - Baked */
+.guildsWrapper-5TJh6A + .flex-1xMQg5 > .flex-1xMQg5 {
+    position: static!important;
+}
+/* /Bug Fix */
+
 .container-2Thooq .button-2b6hmh,
 .container-2Thooq .button-2b6hmh:hover {
 	border-radius: 30px;
@@ -695,8 +701,8 @@
 	padding: 0 20px;
 }
 
-.searchPopout-1vUlP3 {background: #202020!important; border-radius: 0; overflow:visible; margin-top: 10px}
-.searchPopout-1vUlP3::after {content: ''; position: absolute; width: 0; height: 0; top: -10px; left: 50%; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #202020;}
+.container-3ayLPN {background: #202020!important; border-radius: 0; overflow:visible; margin-top: 10px}
+.container-3ayLPN::after {content: ''; position: absolute; width: 0; height: 0; top: 19px; left: 50%; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 10px solid #202020;}
 
 .search-results-wrap .search-header {background: #202020 !important;}
 .search-results-wrap .scrollerWrap-2lJEkd .scroller-2FKFPG {background: #111111 !important;}
