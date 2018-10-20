@@ -1147,24 +1147,20 @@
 .noticeStreamerMode-2TSQpg {background: #181818 !important;}
 
 .markdown-modal,
-.region-select-modal,
-.region-select-modal .region-select-modal-header,
+.regionSelectModal-12e-57,
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1,
 .modal-3HD5ck {
 	color: #FFF;
 	background-color: #181818 !important;
 }
 
-.region-select-modal .region-select-modal-option {
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
 	background-color: #1C1C1C !important;
 	border: 2px solid #1C1C1C;
 }
-.region-select-modal .region-select-modal-option:hover {border-color: #1DB954 !important;}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {border-color: #1DB954 !important;}
 
 .avatar-uploader .avatar-uploader-inner {background-color: white !important;}
-
-.user-settings-modal .voice-settings .reset-voice-settings {color: #1ED760 !important;}
-.user-settings-modal .voice-settings .reset-voice-settings:hover {color: #1DB954 !important;}
-
 /* Discord Transaction History */
 .paymentRow-2e7VM6 {
    border-color: transparent !important;
@@ -1224,11 +1220,21 @@
 	color: white !important;
 	transition: none !important;
 }
+/* Question Mark */
+.questionMark-CWEQZn {
+	background-color: #1db954!important
+}
+
+/* Input */
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus {
+	border-color: #1db954!important
+}
 
 .colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .headerButtonColor-G7_f-V,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
 	border-radius: 30px !important;
 	background-color: #1db954 !important;
 	color: white !important;
@@ -1332,10 +1338,10 @@
 .user-settings-modal .voice-settings .reset-voice-settings {color: #1ED760 !important;}
 .user-settings-modal .voice-settings .reset-voice-settings:hover {color: #1DB954 !important;}
 
-.ui-standard-sidebar-view a {color: #1ED760 !important;}
-.ui-standard-sidebar-view a:hover {color: #1DB954 !important;}
+.standardSidebarView-3F1I7i a {color: #1ED760 !important;}
+.standardSidebarView-3F1I7i a:hover {color: #1DB954 !important;}
 
-.content-region {
+.contentRegion-3nDuYy {
 	border: 0px !important;
 	background-color: #181818 !important;
 	color: #FFF;
@@ -1352,7 +1358,7 @@
 
 .ui-tab-bar-item:active {background-color: hsla(216,4%,74%,.1) !important;}
 .ui-tab-bar-item.selected:not(.guild-role), .itemSelected-1qLhcL {background: #1db954 !important;}
-.ui-standard-sidebar-view .sidebar-region {background-color: #282828 !important;}
+.sidebarRegion-VFTUkN {background-color: #282828 !important;}
 
 div.control-group .shortcut-recorder input[type=text] {color: #FFF !important;}
 
